@@ -1,0 +1,6 @@
+{
+  "name": "STUDORA — Smart Student Productivity Platform",
+  "description": "All-in-one Pastel Neobrutalism productivity platform for IT students: academic GPA tracker, schedule, kanban tasks, coding lab, learning roadmaps, project management, finance, notes, and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

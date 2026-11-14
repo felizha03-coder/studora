@@ -1,0 +1,170 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-display: "Audiowide", system-ui, sans-serif;
+  --font-label: "Michroma", system-ui, sans-serif;
+  --font-body: "Outfit", system-ui, sans-serif;
+  --font-stat: "Space Grotesk", system-ui, sans-serif;
+  --font-code: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --color-lavender: #A78BFA;
+  --color-soft-purple: #C4B5FD;
+  --color-peach: #FFC98B;
+  --color-mint: #B9F5C8;
+  --color-pastel-pink: #F5A9DD;
+  --color-soft-yellow: #FFE69A;
+  --color-cream: #FFF9F0;
+  --color-ink: #171717;
+}
+
+:root {
+  --studora-bg: #FDE2F3;
+}
+
+@layer base {
+  html {
+    font-family: "Outfit", system-ui, sans-serif;
+    background-color: var(--studora-bg, #FDE2F3);
+    color: #171717;
+    scroll-behavior: smooth;
+  }
+
+  html.dark {
+    background-color: #121216;
+    color: #F5F3EE;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Subtle dot-grid canvas texture for editorial craft */
+  .bg-studora-canvas {
+    background-color: var(--studora-bg, #FDE2F3);
+    background-image: radial-gradient(rgba(23, 23, 23, 0.08) 1px, transparent 1px);
+    background-size: 22px 22px;
+    transition: background-color 200ms ease;
+  }
+
+  .dark .bg-studora-canvas {
+    background-color: #121216;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+}
+
+/* Typography Helpers */
+.font-display {
+  font-family: "Audiowide", system-ui, sans-serif;
+}
+
+.font-label {
+  font-family: "Michroma", system-ui, sans-serif;
+}
+
+.font-body {
+  font-family: "Outfit", system-ui, sans-serif;
+}
+
+.font-stat {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+
+.font-code {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+}
+
+/* Pastel Neobrutalism Core Surfaces */
+.neo-card {
+  border: 2.5px solid #171717;
+  border-radius: 20px;
+  box-shadow: 4px 4px 0px #171717;
+  transition: transform 150ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.neo-card-interactive:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #171717;
+}
+
+.neo-btn {
+  border: 2px solid #171717;
+  border-radius: 14px;
+  box-shadow: 3px 3px 0px #171717;
+  transition: transform 120ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 120ms cubic-bezier(0.16, 1, 0.3, 1), background-color 150ms ease;
+}
+
+.neo-btn:hover:not(:disabled) {
+  transform: translate(-1.5px, -1.5px);
+  box-shadow: 4.5px 4.5px 0px #171717;
+}
+
+.neo-btn:active:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px #171717;
+}
+
+.neo-input {
+  border: 2px solid #171717;
+  border-radius: 12px;
+  box-shadow: 2px 2px 0px #171717;
+  transition: box-shadow 150ms ease, transform 150ms ease;
+}
+
+.neo-input:focus {
+  outline: none;
+  box-shadow: 4px 4px 0px #171717;
+}
+
+.dark .neo-card,
+.dark .neo-btn,
+.dark .neo-input {
+  border-color: #2E2E38;
+  box-shadow: 4px 4px 0px #000000;
+}
+
+.dark .neo-card-interactive:hover {
+  box-shadow: 6px 6px 0px #000000;
+}
+
+/* Custom Neobrutalist Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #171717;
+  border-radius: 999px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #A78BFA;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,2618 @@
+{
+  "users": {},
+  "workspaces": {
+    "raka.pratama@studora.ac.id": {
+      "profile": {
+        "fullName": "Raka Pratama",
+        "studentId": "2205110482",
+        "university": "Institut Teknologi Nusantara",
+        "faculty": "Fakultas Teknik Elektro & Informatika",
+        "major": "S1 Teknik Informatika",
+        "semester": 5,
+        "email": "raka.pratama@studora.ac.id",
+        "bio": "Full-stack learner, algorithms enthusiast, and campus hackathon builder focused on scalable TypeScript web systems.",
+        "avatarUrl": "/src/assets/images/avatar_student_profile_1794639985193.jpg"
+      },
+      "courses": [
+        {
+          "id": "c-1",
+          "code": "IF101",
+          "name": "Dasar Pemrograman & Logika",
+          "lecturer": "Dr. Hendra Wijaya, M.T.",
+          "sks": 4,
+          "semester": 1,
+          "grade": "A",
+          "status": "Completed",
+          "tone": "mint"
+        },
+        {
+          "id": "c-2",
+          "code": "IF202",
+          "name": "Struktur Data & Algoritma",
+          "lecturer": "Dr. Budi Santoso, M.Kom.",
+          "sks": 4,
+          "semester": 3,
+          "grade": "A",
+          "status": "Completed",
+          "tone": "lavender"
+        },
+        {
+          "id": "c-3",
+          "code": "IF208",
+          "name": "Sistem Basis Data Relasional",
+          "lecturer": "Siti Rahmawati, M.Cs.",
+          "sks": 3,
+          "semester": 3,
+          "grade": "A-",
+          "status": "Completed",
+          "tone": "yellow"
+        },
+        {
+          "id": "c-4",
+          "code": "IF301",
+          "name": "Rekayasa Perangkat Lunak",
+          "lecturer": "Ir. Dimas Nugroho, M.Eng.",
+          "sks": 3,
+          "semester": 4,
+          "grade": "A",
+          "status": "Completed",
+          "tone": "peach"
+        },
+        {
+          "id": "c-5",
+          "code": "IF304",
+          "name": "Sistem Operasi & Kernel",
+          "lecturer": "Dr. Andi Kusuma, Ph.D.",
+          "sks": 3,
+          "semester": 4,
+          "grade": "B+",
+          "status": "Completed",
+          "tone": "pink"
+        },
+        {
+          "id": "c-6",
+          "code": "IF501",
+          "name": "Pengembangan Web Full-Stack",
+          "lecturer": "Nadia Larasati, M.Kom.",
+          "sks": 4,
+          "semester": 5,
+          "grade": "In Progress",
+          "status": "Active",
+          "tone": "lavender"
+        },
+        {
+          "id": "c-7",
+          "code": "IF504",
+          "name": "Kecerdasan Buatan & Machine Learning",
+          "lecturer": "Prof. Dr. Arif Rahman",
+          "sks": 3,
+          "semester": 5,
+          "grade": "In Progress",
+          "status": "Active",
+          "tone": "mint"
+        },
+        {
+          "id": "c-8",
+          "code": "IF507",
+          "name": "Keamanan Jaringan & Kriptografi",
+          "lecturer": "Fajar Setiawan, M.T.",
+          "sks": 3,
+          "semester": 5,
+          "grade": "In Progress",
+          "status": "Active",
+          "tone": "peach"
+        }
+      ],
+      "schedule": [
+        {
+          "id": "sch-1",
+          "title": "Pengembangan Web Full-Stack",
+          "courseCode": "IF501",
+          "category": "Lecture",
+          "date": "2026-11-14",
+          "startTime": "08:30",
+          "endTime": "10:30",
+          "location": "Gedung Labtek V · R.302",
+          "instructor": "Nadia Larasati, M.Kom.",
+          "reminderEnabled": true,
+          "notes": "Bring laptop with Node.js 22 & PostgreSQL client."
+        },
+        {
+          "id": "sch-2",
+          "title": "Praktikum Machine Learning",
+          "courseCode": "IF504",
+          "category": "Lab",
+          "date": "2026-11-14",
+          "startTime": "13:00",
+          "endTime": "15:30",
+          "location": "Lab AI & Data Science · Lt. 2",
+          "instructor": "Asisten Lab AI",
+          "reminderEnabled": true,
+          "notes": "Regression & scikit-learn evaluation lab."
+        },
+        {
+          "id": "sch-3",
+          "title": "Quiz Kriptografi Simetris",
+          "courseCode": "IF507",
+          "category": "Exam",
+          "date": "2026-11-15",
+          "startTime": "09:00",
+          "endTime": "10:15",
+          "location": "Aula Barat · R.104",
+          "instructor": "Fajar Setiawan, M.T.",
+          "reminderEnabled": true,
+          "notes": "AES-256 block modes & modular arithmetic."
+        },
+        {
+          "id": "sch-4",
+          "title": "Tech Talk: Cloud Native Architecture",
+          "category": "Campus Event",
+          "date": "2026-11-16",
+          "startTime": "15:30",
+          "endTime": "17:30",
+          "location": "Student Innovation Center",
+          "instructor": "Himpunan Mahasiswa Informatika",
+          "reminderEnabled": false,
+          "notes": "Docker, Kubernetes, and CI/CD pipelines."
+        },
+        {
+          "id": "sch-5",
+          "title": "Kuliah Kecerdasan Buatan",
+          "courseCode": "IF504",
+          "category": "Lecture",
+          "date": "2026-11-17",
+          "startTime": "10:00",
+          "endTime": "12:00",
+          "location": "Gedung Kuliah Umum · R.201",
+          "instructor": "Prof. Dr. Arif Rahman",
+          "reminderEnabled": true
+        },
+        {
+          "id": "sch-6",
+          "title": "Praktikum Keamanan Jaringan",
+          "courseCode": "IF507",
+          "category": "Lab",
+          "date": "2026-11-18",
+          "startTime": "13:30",
+          "endTime": "16:00",
+          "location": "Cyber Defense Lab · R.401",
+          "instructor": "Asisten Lab Jarkom",
+          "reminderEnabled": true
+        }
+      ],
+      "tasks": [
+        {
+          "id": "t-1",
+          "title": "Build REST API Authentication & JWT Middleware",
+          "description": "Implement register, login, refresh token, and protected student routes with Express + Zod validation.",
+          "deadline": "2026-11-16",
+          "priority": "Urgent",
+          "status": "In Progress",
+          "subject": "IF501 · Web Full-Stack",
+          "checklist": [
+            {
+              "id": "tc-1",
+              "text": "Design user schema & password hashing",
+              "done": true
+            },
+            {
+              "id": "tc-2",
+              "text": "Write auth middleware",
+              "done": true
+            },
+            {
+              "id": "tc-3",
+              "text": "Write integration tests",
+              "done": false
+            }
+          ],
+          "attachments": [
+            "auth-spec-v2.pdf",
+            "postman-collection.json"
+          ],
+          "createdAt": "2026-11-11"
+        },
+        {
+          "id": "t-2",
+          "title": "Prepare AES & RSA Cryptography Lab Report",
+          "description": "Compare encryption latency across 128-bit and 256-bit keys and submit PDF report.",
+          "deadline": "2026-11-15",
+          "priority": "High",
+          "status": "Review",
+          "subject": "IF507 · Keamanan Jaringan",
+          "checklist": [
+            {
+              "id": "tc-4",
+              "text": "Run Python benchmark script",
+              "done": true
+            },
+            {
+              "id": "tc-5",
+              "text": "Plot latency chart",
+              "done": true
+            },
+            {
+              "id": "tc-6",
+              "text": "Proofread final PDF",
+              "done": false
+            }
+          ],
+          "attachments": [
+            "crypto-benchmark.ipynb"
+          ],
+          "createdAt": "2026-11-09"
+        },
+        {
+          "id": "t-3",
+          "title": "Train Decision Tree Classifier on Student Dataset",
+          "description": "Tune max_depth hyperparameter and evaluate precision/recall confusion matrix.",
+          "deadline": "2026-11-19",
+          "priority": "Medium",
+          "status": "To Do",
+          "subject": "IF504 · Kecerdasan Buatan",
+          "checklist": [
+            {
+              "id": "tc-7",
+              "text": "Clean missing columns",
+              "done": true
+            },
+            {
+              "id": "tc-8",
+              "text": "Split train/test 80/20",
+              "done": false
+            },
+            {
+              "id": "tc-9",
+              "text": "Export evaluation metrics",
+              "done": false
+            }
+          ],
+          "attachments": [
+            "dataset_v3.csv"
+          ],
+          "createdAt": "2026-11-12"
+        },
+        {
+          "id": "t-4",
+          "title": "Refactor ER Diagram for Campus Library DB",
+          "description": "Normalize tables up to 3NF and add composite indexes for book loan queries.",
+          "deadline": "2026-11-13",
+          "priority": "High",
+          "status": "To Do",
+          "subject": "IF208 · Basis Data",
+          "checklist": [
+            {
+              "id": "tc-10",
+              "text": "Identify transitive dependencies",
+              "done": false
+            },
+            {
+              "id": "tc-11",
+              "text": "Generate SQL migration",
+              "done": false
+            }
+          ],
+          "attachments": [
+            "erd-draft.png"
+          ],
+          "createdAt": "2026-11-08"
+        },
+        {
+          "id": "t-5",
+          "title": "Push Responsive Dashboard Component Library",
+          "description": "Create reusable Pastel Neobrutalism cards, modals, and chart wrappers.",
+          "deadline": "2026-11-18",
+          "priority": "Medium",
+          "status": "Completed",
+          "subject": "IF501 · Web Full-Stack",
+          "checklist": [
+            {
+              "id": "tc-12",
+              "text": "Build NeoCard & NeoButton",
+              "done": true
+            },
+            {
+              "id": "tc-13",
+              "text": "Verify mobile breakpoint",
+              "done": true
+            }
+          ],
+          "attachments": [
+            "ui-tokens.md"
+          ],
+          "createdAt": "2026-11-07"
+        }
+      ],
+      "snippets": [
+        {
+          "id": "snp-1",
+          "title": "Debounce Search Hook (React + TS)",
+          "language": "TypeScript",
+          "description": "Prevent excessive filtering or API calls while typing in search inputs.",
+          "tags": [
+            "react",
+            "hooks",
+            "performance"
+          ],
+          "updatedAt": "2026-11-13",
+          "isFavorite": true,
+          "code": "import { useEffect, useState } from \"react\";\n\nexport function useDebounce<T>(value: T, delay = 250): T {\n  const [debounced, setDebounced] = useState(value);\n  useEffect(() => {\n    const timer = setTimeout(() => setDebounced(value), delay);\n    return () => clearTimeout(timer);\n  }, [value, delay]);\n  return debounced;\n}"
+        },
+        {
+          "id": "snp-2",
+          "title": "Dijkstra Priority Queue Skeleton",
+          "language": "Python",
+          "description": "Shortest path graph solver using heapq.",
+          "tags": [
+            "algorithms",
+            "graph"
+          ],
+          "updatedAt": "2026-11-12",
+          "isFavorite": true,
+          "code": "import heapq\n\ndef dijkstra(graph, start):\n    dist = {node: float('inf') for node in graph}\n    dist[start] = 0\n    pq = [(0, start)]\n    while pq:\n        cost, u = heapq.heappop(pq)\n        if cost > dist[u]:\n            continue\n        for v, weight in graph[u]:\n            if cost + weight < dist[v]:\n                dist[v] = cost + weight\n                heapq.heappush(pq, (dist[v], v))\n    return dist\n\nprint(\"Dijkstra module ready\")"
+        },
+        {
+          "id": "snp-3",
+          "title": "Student GPA Weighted Query",
+          "language": "SQL",
+          "description": "Calculate cumulative GPA directly in PostgreSQL.",
+          "tags": [
+            "sql",
+            "postgres",
+            "academic"
+          ],
+          "updatedAt": "2026-11-10",
+          "isFavorite": false,
+          "code": "SELECT\n  student_id,\n  ROUND(SUM(credits * grade_point)::numeric / SUM(credits), 2) AS gpa\nFROM enrollments\nGROUP BY student_id;"
+        }
+      ],
+      "roadmaps": [
+        {
+          "id": "rm-fe",
+          "title": "Frontend Developer",
+          "subtitle": "HTML, CSS, Modern React, TypeScript & Performance",
+          "tone": "lavender",
+          "badgeName": "Pixel Architect",
+          "steps": [
+            {
+              "id": "fe-1",
+              "title": "Semantic HTML5 & Accessibility (ARIA)",
+              "tier": "Beginner",
+              "description": "Master landmarks, forms, keyboard focus management, and semantic document structure.",
+              "materials": [
+                "MDN Accessibility Guide",
+                "HTML5 Landmarks Cheatsheet"
+              ],
+              "resourceUrl": "https://developer.mozilla.org/en-US/docs/Learn/Accessibility",
+              "xp": 100,
+              "completed": true
+            },
+            {
+              "id": "fe-2",
+              "title": "CSS Grid, Flexbox & Responsive Design",
+              "tier": "Beginner",
+              "description": "Build adaptive layouts across desktop, tablet, and mobile viewports cleanly.",
+              "materials": [
+                "Flexbox Froggy",
+                "CSS Grid Complete Guide"
+              ],
+              "resourceUrl": "https://css-tricks.com/snippets/css/complete-guide-grid/",
+              "xp": 120,
+              "completed": true
+            },
+            {
+              "id": "fe-3",
+              "title": "React Hooks, State Patterns & TypeScript",
+              "tier": "Intermediate",
+              "description": "Typed components, custom hooks, derived state, and clean data flow.",
+              "materials": [
+                "React Official Docs",
+                "TypeScript Handbook"
+              ],
+              "resourceUrl": "https://react.dev/learn",
+              "xp": 180,
+              "completed": true
+            },
+            {
+              "id": "fe-4",
+              "title": "Framer Motion, Bundle Optimization & Testing",
+              "tier": "Advanced",
+              "description": "Micro-interactions, code splitting, and end-to-end UI verification.",
+              "materials": [
+                "Motion Docs",
+                "Vitest Testing Guide"
+              ],
+              "resourceUrl": "https://www.framer.com/motion/",
+              "xp": 240,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": "rm-be",
+          "title": "Backend Developer",
+          "subtitle": "APIs, PostgreSQL, Auth, Caching & System Design",
+          "tone": "mint",
+          "badgeName": "API Guardian",
+          "steps": [
+            {
+              "id": "be-1",
+              "title": "HTTP Fundamentals & RESTful API Design",
+              "tier": "Beginner",
+              "description": "Status codes, idempotency, headers, and clean JSON contracts.",
+              "materials": [
+                "REST API Design Best Practices"
+              ],
+              "resourceUrl": "https://restfulapi.net/",
+              "xp": 100,
+              "completed": true
+            },
+            {
+              "id": "be-2",
+              "title": "Node.js, Express & Relational SQL Modeling",
+              "tier": "Intermediate",
+              "description": "Database normalization, indexing, joins, and parameterized queries.",
+              "materials": [
+                "PostgreSQL Tutorial",
+                "Express Middleware Guide"
+              ],
+              "resourceUrl": "https://www.postgresql.org/docs/",
+              "xp": 180,
+              "completed": true
+            },
+            {
+              "id": "be-3",
+              "title": "JWT Auth, Rate Limiting & Redis Caching",
+              "tier": "Advanced",
+              "description": "Secure session lifecycles, RBAC authorization, and low-latency caching.",
+              "materials": [
+                "OWASP API Security Top 10"
+              ],
+              "resourceUrl": "https://owasp.org/www-project-api-security/",
+              "xp": 250,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": "rm-fs",
+          "title": "Full Stack Developer",
+          "subtitle": "End-to-End Product Engineering from DB to UI",
+          "tone": "peach",
+          "badgeName": "Stack Polyglot",
+          "steps": [
+            {
+              "id": "fs-1",
+              "title": "Monorepo / Client-Server Architecture",
+              "tier": "Beginner",
+              "description": "Shared TypeScript DTOs, environment config, and local dev proxies.",
+              "materials": [
+                "Vite Full-Stack Integration"
+              ],
+              "resourceUrl": "https://vitejs.dev/guide/backend-integration.html",
+              "xp": 120,
+              "completed": true
+            },
+            {
+              "id": "fs-2",
+              "title": "Supabase / PostgreSQL + Real-Time Sync",
+              "tier": "Intermediate",
+              "description": "Row Level Security, storage buckets, and optimistic UI updates.",
+              "materials": [
+                "Supabase Docs"
+              ],
+              "resourceUrl": "https://supabase.com/docs",
+              "xp": 200,
+              "completed": false
+            },
+            {
+              "id": "fs-3",
+              "title": "Docker Containers & CI/CD Deployment",
+              "tier": "Advanced",
+              "description": "Multi-stage Docker builds, GitHub Actions, and zero-downtime releases.",
+              "materials": [
+                "Docker Curriculum"
+              ],
+              "resourceUrl": "https://docker-curriculum.com/",
+              "xp": 260,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": "rm-ux",
+          "title": "UI/UX Designer",
+          "subtitle": "Design Systems, Wireframing, Figma & Usability",
+          "tone": "pink",
+          "badgeName": "Craft Designer",
+          "steps": [
+            {
+              "id": "ux-1",
+              "title": "Visual Hierarchy, Typography & Color Contrast",
+              "tier": "Beginner",
+              "description": "WCAG AA legibility, spacing scales, and grid discipline.",
+              "materials": [
+                "Refactoring UI Principles"
+              ],
+              "resourceUrl": "https://web.dev/accessible/",
+              "xp": 100,
+              "completed": true
+            },
+            {
+              "id": "ux-2",
+              "title": "Component Tokens & Interactive Prototyping",
+              "tier": "Intermediate",
+              "description": "Reusable design tokens, state matrices, and micro-copy.",
+              "materials": [
+                "Figma Auto-Layout Guide"
+              ],
+              "resourceUrl": "https://help.figma.com/",
+              "xp": 160,
+              "completed": false
+            },
+            {
+              "id": "ux-3",
+              "title": "Usability Testing & Heuristic Evaluation",
+              "tier": "Advanced",
+              "description": "Task completion metrics, user interviews, and iterative refinement.",
+              "materials": [
+                "Nielsen Norman 10 Heuristics"
+              ],
+              "resourceUrl": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+              "xp": 220,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": "rm-da",
+          "title": "Data Analyst",
+          "subtitle": "SQL Analytics, Python Pandas, Visualization & KPIs",
+          "tone": "yellow",
+          "badgeName": "Insight Miner",
+          "steps": [
+            {
+              "id": "da-1",
+              "title": "Advanced SQL Window Functions & CTEs",
+              "tier": "Beginner",
+              "description": "Aggregate cohorts, rolling averages, and ranking queries.",
+              "materials": [
+                "Mode SQL Analytics Tutorial"
+              ],
+              "resourceUrl": "https://mode.com/sql-tutorial/",
+              "xp": 120,
+              "completed": true
+            },
+            {
+              "id": "da-2",
+              "title": "Data Cleaning with Python Pandas & NumPy",
+              "tier": "Intermediate",
+              "description": "Impute missing values, reshape dataframes, and detect outliers.",
+              "materials": [
+                "Kaggle Pandas Course"
+              ],
+              "resourceUrl": "https://www.kaggle.com/learn/pandas",
+              "xp": 180,
+              "completed": false
+            },
+            {
+              "id": "da-3",
+              "title": "Executive Dashboards & Storytelling with Data",
+              "tier": "Advanced",
+              "description": "Choose high-signal charts and eliminate visual clutter.",
+              "materials": [
+                "Storytelling with Data"
+              ],
+              "resourceUrl": "https://www.storytellingwithdata.com/",
+              "xp": 220,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": "rm-sec",
+          "title": "Cybersecurity",
+          "subtitle": "Networking, AppSec, Cryptography & Pentesting",
+          "tone": "purple",
+          "badgeName": "Cyber Sentinel",
+          "steps": [
+            {
+              "id": "sec-1",
+              "title": "TCP/IP, DNS & Linux Hardening",
+              "tier": "Beginner",
+              "description": "Packet analysis, firewall rules, and least-privilege permissions.",
+              "materials": [
+                "OverTheWire Bandit"
+              ],
+              "resourceUrl": "https://overthewire.org/wargames/bandit/",
+              "xp": 130,
+              "completed": true
+            },
+            {
+              "id": "sec-2",
+              "title": "OWASP Top 10 & Web Exploitation Defense",
+              "tier": "Intermediate",
+              "description": "Prevent SQLi, XSS, CSRF, SSRF, and broken access control.",
+              "materials": [
+                "PortSwigger Web Security Academy"
+              ],
+              "resourceUrl": "https://portswigger.net/web-security",
+              "xp": 200,
+              "completed": false
+            },
+            {
+              "id": "sec-3",
+              "title": "Applied Cryptography & PKI Infrastructure",
+              "tier": "Advanced",
+              "description": "TLS handshakes, asymmetric signatures, and secure key rotation.",
+              "materials": [
+                "Cryptohack"
+              ],
+              "resourceUrl": "https://cryptohack.org/",
+              "xp": 260,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": "rm-mob",
+          "title": "Mobile Developer",
+          "subtitle": "React Native, Flutter, Offline Sync & Native APIs",
+          "tone": "mint",
+          "badgeName": "Pocket Builder",
+          "steps": [
+            {
+              "id": "mob-1",
+              "title": "Mobile Navigation & Touch Ergonomics",
+              "tier": "Beginner",
+              "description": "Stack/tab navigators, safe areas, and gesture feedback.",
+              "materials": [
+                "Expo Router Guide"
+              ],
+              "resourceUrl": "https://docs.expo.dev/",
+              "xp": 110,
+              "completed": false
+            },
+            {
+              "id": "mob-2",
+              "title": "Offline-First SQLite & Async Storage",
+              "tier": "Intermediate",
+              "description": "Local cache persistence and background synchronization.",
+              "materials": [
+                "React Native Storage Patterns"
+              ],
+              "resourceUrl": "https://reactnative.dev/",
+              "xp": 170,
+              "completed": false
+            },
+            {
+              "id": "mob-3",
+              "title": "60fps Animations & App Store Release",
+              "tier": "Advanced",
+              "description": "Reanimated worklets, profiling, and signed builds.",
+              "materials": [
+                "Reanimated Docs"
+              ],
+              "resourceUrl": "https://docs.swmansion.com/react-native-reanimated/",
+              "xp": 240,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": "rm-ai",
+          "title": "AI & Machine Learning",
+          "subtitle": "Linear Algebra, PyTorch, NLP & Applied LLMs",
+          "tone": "pink",
+          "badgeName": "Neural Explorer",
+          "steps": [
+            {
+              "id": "ai-1",
+              "title": "Supervised Learning & Scikit-Learn Pipelines",
+              "tier": "Beginner",
+              "description": "Regression, classification trees, cross-validation, and F1 scores.",
+              "materials": [
+                "Andrew Ng ML Specialization"
+              ],
+              "resourceUrl": "https://scikit-learn.org/stable/user_guide.html",
+              "xp": 140,
+              "completed": true
+            },
+            {
+              "id": "ai-2",
+              "title": "Deep Learning & PyTorch Neural Networks",
+              "tier": "Intermediate",
+              "description": "Backpropagation, CNNs, Adam optimizer, and GPU batching.",
+              "materials": [
+                "PyTorch 60 Minute Blitz"
+              ],
+              "resourceUrl": "https://pytorch.org/tutorials/",
+              "xp": 210,
+              "completed": false
+            },
+            {
+              "id": "ai-3",
+              "title": "Transformers, RAG & Model Evaluation",
+              "tier": "Advanced",
+              "description": "Embeddings, vector retrieval, prompt evals, and latency budgets.",
+              "materials": [
+                "Hugging Face NLP Course"
+              ],
+              "resourceUrl": "https://huggingface.co/learn/nlp-course/",
+              "xp": 280,
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "id": "prj-1",
+          "title": "STUDORA Campus Portal",
+          "category": "Website",
+          "description": "Full-stack student academic portal built with React, TypeScript, Express, and Pastel Neobrutalism UI.",
+          "deadline": "2026-11-28",
+          "coverImage": "/src/assets/images/project_web_cover_1794639986376.jpg",
+          "tone": "mint",
+          "status": "Active",
+          "members": [
+            {
+              "id": "m-1",
+              "name": "Raka Pratama",
+              "role": "Full-Stack Lead",
+              "initials": "RP"
+            },
+            {
+              "id": "m-2",
+              "name": "Alya Kusuma",
+              "role": "UI/UX Designer",
+              "initials": "AK"
+            },
+            {
+              "id": "m-3",
+              "name": "Bagas Putra",
+              "role": "Backend Dev",
+              "initials": "BP"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "pt-1",
+              "title": "Setup Vite + Express full-stack server",
+              "assignee": "Raka Pratama",
+              "done": true
+            },
+            {
+              "id": "pt-2",
+              "title": "Design Neobrutalism token system",
+              "assignee": "Alya Kusuma",
+              "done": true
+            },
+            {
+              "id": "pt-3",
+              "title": "Integrate interactive Recharts analytics",
+              "assignee": "Raka Pratama",
+              "done": true
+            },
+            {
+              "id": "pt-4",
+              "title": "Add PostgreSQL migration script",
+              "assignee": "Bagas Putra",
+              "done": false
+            }
+          ],
+          "timeline": [
+            {
+              "id": "tl-1",
+              "title": "UI Architecture Approved",
+              "date": "2026-11-04",
+              "completed": true
+            },
+            {
+              "id": "tl-2",
+              "title": "Core CRUD Modules Live",
+              "date": "2026-11-12",
+              "completed": true
+            },
+            {
+              "id": "tl-3",
+              "title": "User Acceptance Demo",
+              "date": "2026-11-24",
+              "completed": false
+            }
+          ],
+          "attachments": [
+            "architecture-diagram.svg",
+            "sprint-2-backlog.md"
+          ],
+          "notes": "Focus on zero-latency local persistence and crisp mobile navigation."
+        },
+        {
+          "id": "prj-2",
+          "title": "NeuralNote Smart Summarizer",
+          "category": "AI Project",
+          "description": "Lecture transcript classifier and keyword extractor helping IT students review algorithms faster.",
+          "deadline": "2026-12-06",
+          "coverImage": "/src/assets/images/project_ai_cover_1794639986174.jpg",
+          "tone": "pink",
+          "status": "Active",
+          "members": [
+            {
+              "id": "m-4",
+              "name": "Raka Pratama",
+              "role": "ML Engineer",
+              "initials": "RP"
+            },
+            {
+              "id": "m-5",
+              "name": "Citra Dewi",
+              "role": "Data Curator",
+              "initials": "CD"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "pt-5",
+              "title": "Collect 200 informatics lecture slides",
+              "assignee": "Citra Dewi",
+              "done": true
+            },
+            {
+              "id": "pt-6",
+              "title": "Train TF-IDF + Logistic Classifier",
+              "assignee": "Raka Pratama",
+              "done": true
+            },
+            {
+              "id": "pt-7",
+              "title": "Benchmark inference speed",
+              "assignee": "Raka Pratama",
+              "done": false
+            }
+          ],
+          "timeline": [
+            {
+              "id": "tl-4",
+              "title": "Dataset Cleaned",
+              "date": "2026-11-08",
+              "completed": true
+            },
+            {
+              "id": "tl-5",
+              "title": "Model v1 Accuracy > 88%",
+              "date": "2026-11-21",
+              "completed": false
+            }
+          ],
+          "attachments": [
+            "model-metrics.csv"
+          ],
+          "notes": "Current validation F1 score sits at 0.86; testing bi-gram features next."
+        },
+        {
+          "id": "prj-3",
+          "title": "Campus Shuttle Live Tracker",
+          "category": "Mobile App",
+          "description": "Cross-platform mobile app showing real-time campus bus arrival ETAs and seat capacity.",
+          "deadline": "2026-12-14",
+          "tone": "yellow",
+          "status": "Planning",
+          "members": [
+            {
+              "id": "m-6",
+              "name": "Raka Pratama",
+              "role": "Mobile Dev",
+              "initials": "RP"
+            },
+            {
+              "id": "m-7",
+              "name": "Kevin Tan",
+              "role": "IoT Telemetry",
+              "initials": "KT"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "pt-8",
+              "title": "Define GPS WebSocket payload",
+              "assignee": "Kevin Tan",
+              "done": true
+            },
+            {
+              "id": "pt-9",
+              "title": "Build route stop list UI",
+              "assignee": "Raka Pratama",
+              "done": false
+            }
+          ],
+          "timeline": [
+            {
+              "id": "tl-6",
+              "title": "Hardware Telemetry Test",
+              "date": "2026-11-19",
+              "completed": false
+            }
+          ],
+          "attachments": [
+            "bus-stops.geojson"
+          ],
+          "notes": "Need offline stop timetable fallback when signal drops inside basement."
+        },
+        {
+          "id": "prj-4",
+          "title": "Academic Grading & Transcript Engine",
+          "category": "Database",
+          "description": "Normalized PostgreSQL database schema and stored procedures for university SKS & IPK calculation.",
+          "deadline": "2026-11-21",
+          "tone": "lavender",
+          "status": "Review",
+          "members": [
+            {
+              "id": "m-8",
+              "name": "Raka Pratama",
+              "role": "DB Architect",
+              "initials": "RP"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "pt-10",
+              "title": "Create 3NF ERD schema",
+              "assignee": "Raka Pratama",
+              "done": true
+            },
+            {
+              "id": "pt-11",
+              "title": "Write GPA trigger functions",
+              "assignee": "Raka Pratama",
+              "done": true
+            },
+            {
+              "id": "pt-12",
+              "title": "Prepare final presentation slides",
+              "assignee": "Raka Pratama",
+              "done": false
+            }
+          ],
+          "timeline": [
+            {
+              "id": "tl-7",
+              "title": "Schema Peer Review",
+              "date": "2026-11-13",
+              "completed": true
+            },
+            {
+              "id": "tl-8",
+              "title": "Final Submission",
+              "date": "2026-11-21",
+              "completed": false
+            }
+          ],
+          "attachments": [
+            "schema-3nf.sql"
+          ],
+          "notes": "Passed all constraint checks with zero anomalous updates."
+        }
+      ],
+      "monthlyBudget": 2500000,
+      "transactions": [
+        {
+          "id": "fin-1",
+          "title": "Monthly Parent Allowance",
+          "amount": 2200000,
+          "type": "income",
+          "category": "Allowance",
+          "date": "2026-11-02",
+          "note": "November living & campus budget"
+        },
+        {
+          "id": "fin-2",
+          "title": "Freelance Landing Page Build",
+          "amount": 1350000,
+          "type": "income",
+          "category": "Freelance",
+          "date": "2026-11-08",
+          "note": "React + Tailwind client deliverable"
+        },
+        {
+          "id": "fin-3",
+          "title": "Kantin Kampus & Coffee",
+          "amount": 145000,
+          "type": "expense",
+          "category": "Food",
+          "date": "2026-11-12",
+          "note": "Weekly lunch + late-night coding espresso"
+        },
+        {
+          "id": "fin-4",
+          "title": "Fiber Internet & Mobile Data",
+          "amount": 240000,
+          "type": "expense",
+          "category": "Internet",
+          "date": "2026-11-06",
+          "note": "Monthly 100Mbps student plan"
+        },
+        {
+          "id": "fin-5",
+          "title": "Algorithm & System Design E-Book",
+          "amount": 185000,
+          "type": "expense",
+          "category": "Education",
+          "date": "2026-11-09",
+          "note": "Designing Data-Intensive Applications study notes"
+        },
+        {
+          "id": "fin-6",
+          "title": "Commuter Train & Ride Share",
+          "amount": 95000,
+          "type": "expense",
+          "category": "Transportation",
+          "date": "2026-11-11"
+        },
+        {
+          "id": "fin-7",
+          "title": "Cloud VPS Hosting + Domain",
+          "amount": 165000,
+          "type": "expense",
+          "category": "Shopping",
+          "date": "2026-11-10",
+          "note": "Student sandbox server"
+        },
+        {
+          "id": "fin-8",
+          "title": "Weekend Cinema & Hangout",
+          "amount": 110000,
+          "type": "expense",
+          "category": "Entertainment",
+          "date": "2026-11-13"
+        }
+      ],
+      "financialGoals": [
+        {
+          "id": "fg-1",
+          "title": "Mechanical Keyboard Keychron",
+          "targetAmount": 1600000,
+          "currentAmount": 1150000,
+          "deadline": "2026-12-29",
+          "tone": "lavender"
+        },
+        {
+          "id": "fg-2",
+          "title": "Emergency Student Fund",
+          "targetAmount": 5000000,
+          "currentAmount": 3250000,
+          "deadline": "2027-03-14",
+          "tone": "mint"
+        },
+        {
+          "id": "fg-3",
+          "title": "AWS Cloud Certification Exam",
+          "targetAmount": 1800000,
+          "currentAmount": 900000,
+          "deadline": "2027-01-13",
+          "tone": "yellow"
+        }
+      ],
+      "notes": [
+        {
+          "id": "n-1",
+          "title": "Big-O Complexity Cheat Notes (IF202)",
+          "category": "Lecture Notes",
+          "content": "Always analyze worst-case vs amortized time complexity. Hash tables give O(1) average lookup, while balanced BSTs (AVL / Red-Black) guarantee O(log n) even under adversarial keys.",
+          "codeBlock": "// Binary Search: O(log n) time, O(1) space\nwhile (lo <= hi) {\n  const mid = lo + ((hi - lo) >> 1);\n}",
+          "codeLanguage": "TypeScript",
+          "checklist": [
+            {
+              "id": "nc-1",
+              "text": "Review Master Theorem Case 2",
+              "done": true
+            },
+            {
+              "id": "nc-2",
+              "text": "Practice 5 DP memoization problems",
+              "done": false
+            }
+          ],
+          "pinned": true,
+          "favorite": true,
+          "tone": "lavender",
+          "updatedAt": "2026-11-14"
+        },
+        {
+          "id": "n-2",
+          "title": "PostgreSQL Indexing Rules of Thumb",
+          "category": "Programming",
+          "content": "Use B-Tree indexes for equality and range queries. For composite indexes (a, b), column order matters—place the highest-selectivity or equality column first.",
+          "codeBlock": "CREATE INDEX idx_tasks_status_deadline\nON tasks (status, deadline ASC);",
+          "codeLanguage": "SQL",
+          "checklist": [
+            {
+              "id": "nc-3",
+              "text": "Run EXPLAIN ANALYZE on slow join",
+              "done": true
+            }
+          ],
+          "pinned": true,
+          "favorite": false,
+          "tone": "mint",
+          "updatedAt": "2026-11-13"
+        },
+        {
+          "id": "n-3",
+          "title": "Hackathon App Ideas — Campus Edition",
+          "category": "Ideas",
+          "content": "1. Peer code-review matcher for freshman CS labs.\n2. Crowdsourced quiet study seat availability map in the central library.\n3. Automated syllabus-to-calendar ICS generator.",
+          "checklist": [
+            {
+              "id": "nc-4",
+              "text": "Validate idea #2 with 10 classmates",
+              "done": false
+            }
+          ],
+          "pinned": false,
+          "favorite": true,
+          "tone": "yellow",
+          "updatedAt": "2026-11-12"
+        },
+        {
+          "id": "n-4",
+          "title": "Sprint 3 Action Items — STUDORA Portal",
+          "category": "Projects",
+          "content": "Verify contrast ratios on Pastel Pink and Soft Yellow badges, ensure mobile bottom bar stays ergonomic, and test local persistence across browser reloads.",
+          "checklist": [
+            {
+              "id": "nc-5",
+              "text": "Audit dark mode card borders",
+              "done": true
+            },
+            {
+              "id": "nc-6",
+              "text": "Test CSV export on Analytics",
+              "done": true
+            }
+          ],
+          "pinned": false,
+          "favorite": false,
+          "tone": "peach",
+          "updatedAt": "2026-11-11"
+        },
+        {
+          "id": "n-5",
+          "title": "Weekly Deep Work Routine",
+          "category": "Personal",
+          "content": "Two 90-minute focus blocks before noon with phone in Focus mode. Reserve late afternoon for campus organization syncs and code reviews.",
+          "checklist": [],
+          "pinned": false,
+          "favorite": false,
+          "tone": "pink",
+          "updatedAt": "2026-11-09"
+        }
+      ],
+      "notifications": [
+        {
+          "id": "not-1",
+          "title": "Quiz Kriptografi Simetris Tomorrow",
+          "message": "IF507 quiz starts at 09:00 in Aula Barat R.104. Review AES block modes tonight.",
+          "type": "Exam Reminders",
+          "timestamp": "15m ago",
+          "read": false,
+          "targetPage": "schedule"
+        },
+        {
+          "id": "not-2",
+          "title": "Deadline Approaching: AES Lab Report",
+          "message": "Due tomorrow! 2 of 3 checklist items completed.",
+          "type": "Deadline Reminders",
+          "timestamp": "1h ago",
+          "read": false,
+          "targetPage": "tasks"
+        },
+        {
+          "id": "not-3",
+          "title": "Class Starting Soon: Praktikum ML",
+          "message": "Lab AI & Data Science · Lt. 2 at 13:00 today.",
+          "type": "Class Reminders",
+          "timestamp": "3h ago",
+          "read": false,
+          "targetPage": "schedule"
+        },
+        {
+          "id": "not-4",
+          "title": "Alya pushed UI Tokens to STUDORA Portal",
+          "message": "Project progress reached 75%. Review sprint notes.",
+          "type": "Project Updates",
+          "timestamp": "Yesterday",
+          "read": true,
+          "targetPage": "projects"
+        },
+        {
+          "id": "not-5",
+          "title": "14-Day Coding Streak Unlocked",
+          "message": "You completed 3 Frontend Developer roadmap milestones this week.",
+          "type": "Learning Reminders",
+          "timestamp": "2d ago",
+          "read": true,
+          "targetPage": "roadmap"
+        },
+        {
+          "id": "not-6",
+          "title": "Workspace Sync Active",
+          "message": "Your data automatically persists across sessions with full-stack backup.",
+          "type": "System Notifications",
+          "timestamp": "3d ago",
+          "read": true,
+          "targetPage": "settings"
+        }
+      ],
+      "studyStats": [
+        {
+          "day": "Mon",
+          "studyHours": 4.5,
+          "codingHours": 2.5,
+          "tasksCompleted": 3
+        },
+        {
+          "day": "Tue",
+          "studyHours": 5.2,
+          "codingHours": 3.1,
+          "tasksCompleted": 4
+        },
+        {
+          "day": "Wed",
+          "studyHours": 3.8,
+          "codingHours": 2,
+          "tasksCompleted": 2
+        },
+        {
+          "day": "Thu",
+          "studyHours": 6,
+          "codingHours": 4.2,
+          "tasksCompleted": 5
+        },
+        {
+          "day": "Fri",
+          "studyHours": 4.9,
+          "codingHours": 3.4,
+          "tasksCompleted": 3
+        },
+        {
+          "day": "Sat",
+          "studyHours": 3.2,
+          "codingHours": 2.8,
+          "tasksCompleted": 2
+        },
+        {
+          "day": "Sun",
+          "studyHours": 2.6,
+          "codingHours": 1.9,
+          "tasksCompleted": 1
+        }
+      ],
+      "settings": {
+        "theme": "dark",
+        "accentColor": "yellow",
+        "language": "en",
+        "notifications": {
+          "deadlineReminders": true,
+          "classReminders": true,
+          "examReminders": true,
+          "projectUpdates": true,
+          "learningReminders": true,
+          "systemNotifications": true
+        }
+      }
+    },
+    "feliz@studora.ac.id": {
+      "profile": {
+        "fullName": "Feliz",
+        "studentId": "2205110482",
+        "university": "Institut Teknologi Nusantara",
+        "faculty": "Fakultas Teknik Elektro & Informatika",
+        "major": "S1 Teknik Informatika",
+        "semester": 5,
+        "email": "feliz@studora.ac.id",
+        "bio": "Full-stack learner, algorithms enthusiast, and campus hackathon builder focused on scalable TypeScript web systems.",
+        "avatarUrl": "/src/assets/images/avatar_student_profile_1794639985193.jpg"
+      },
+      "courses": [
+        {
+          "id": "c-1",
+          "code": "IF101",
+          "name": "Dasar Pemrograman & Logika",
+          "lecturer": "Dr. Hendra Wijaya, M.T.",
+          "sks": 4,
+          "semester": 1,
+          "grade": "A",
+          "status": "Completed",
+          "tone": "mint"
+        },
+        {
+          "id": "c-2",
+          "code": "IF202",
+          "name": "Struktur Data & Algoritma",
+          "lecturer": "Dr. Budi Santoso, M.Kom.",
+          "sks": 4,
+          "semester": 3,
+          "grade": "A",
+          "status": "Completed",
+          "tone": "lavender"
+        },
+        {
+          "id": "c-3",
+          "code": "IF208",
+          "name": "Sistem Basis Data Relasional",
+          "lecturer": "Siti Rahmawati, M.Cs.",
+          "sks": 3,
+          "semester": 3,
+          "grade": "A-",
+          "status": "Completed",
+          "tone": "yellow"
+        },
+        {
+          "id": "c-4",
+          "code": "IF301",
+          "name": "Rekayasa Perangkat Lunak",
+          "lecturer": "Ir. Dimas Nugroho, M.Eng.",
+          "sks": 3,
+          "semester": 4,
+          "grade": "A",
+          "status": "Completed",
+          "tone": "peach"
+        },
+        {
+          "id": "c-5",
+          "code": "IF304",
+          "name": "Sistem Operasi & Kernel",
+          "lecturer": "Dr. Andi Kusuma, Ph.D.",
+          "sks": 3,
+          "semester": 4,
+          "grade": "B+",
+          "status": "Completed",
+          "tone": "pink"
+        },
+        {
+          "id": "c-6",
+          "code": "IF501",
+          "name": "Pengembangan Web Full-Stack",
+          "lecturer": "Nadia Larasati, M.Kom.",
+          "sks": 4,
+          "semester": 5,
+          "grade": "In Progress",
+          "status": "Active",
+          "tone": "lavender"
+        },
+        {
+          "id": "c-7",
+          "code": "IF504",
+          "name": "Kecerdasan Buatan & Machine Learning",
+          "lecturer": "Prof. Dr. Arif Rahman",
+          "sks": 3,
+          "semester": 5,
+          "grade": "In Progress",
+          "status": "Active",
+          "tone": "mint"
+        },
+        {
+          "id": "c-8",
+          "code": "IF507",
+          "name": "Keamanan Jaringan & Kriptografi",
+          "lecturer": "Fajar Setiawan, M.T.",
+          "sks": 3,
+          "semester": 5,
+          "grade": "In Progress",
+          "status": "Active",
+          "tone": "peach"
+        }
+      ],
+      "schedule": [
+        {
+          "id": "sch-1",
+          "title": "Pengembangan Web Full-Stack",
+          "courseCode": "IF501",
+          "category": "Lecture",
+          "date": "2026-11-14",
+          "startTime": "08:30",
+          "endTime": "10:30",
+          "location": "Gedung Labtek V · R.302",
+          "instructor": "Nadia Larasati, M.Kom.",
+          "reminderEnabled": true,
+          "notes": "Bring laptop with Node.js 22 & PostgreSQL client."
+        },
+        {
+          "id": "sch-2",
+          "title": "Praktikum Machine Learning",
+          "courseCode": "IF504",
+          "category": "Lab",
+          "date": "2026-11-14",
+          "startTime": "13:00",
+          "endTime": "15:30",
+          "location": "Lab AI & Data Science · Lt. 2",
+          "instructor": "Asisten Lab AI",
+          "reminderEnabled": true,
+          "notes": "Regression & scikit-learn evaluation lab."
+        },
+        {
+          "id": "sch-3",
+          "title": "Quiz Kriptografi Simetris",
+          "courseCode": "IF507",
+          "category": "Exam",
+          "date": "2026-11-15",
+          "startTime": "09:00",
+          "endTime": "10:15",
+          "location": "Aula Barat · R.104",
+          "instructor": "Fajar Setiawan, M.T.",
+          "reminderEnabled": true,
+          "notes": "AES-256 block modes & modular arithmetic."
+        },
+        {
+          "id": "sch-4",
+          "title": "Tech Talk: Cloud Native Architecture",
+          "category": "Campus Event",
+          "date": "2026-11-16",
+          "startTime": "15:30",
+          "endTime": "17:30",
+          "location": "Student Innovation Center",
+          "instructor": "Himpunan Mahasiswa Informatika",
+          "reminderEnabled": false,
+          "notes": "Docker, Kubernetes, and CI/CD pipelines."
+        },
+        {
+          "id": "sch-5",
+          "title": "Kuliah Kecerdasan Buatan",
+          "courseCode": "IF504",
+          "category": "Lecture",
+          "date": "2026-11-17",
+          "startTime": "10:00",
+          "endTime": "12:00",
+          "location": "Gedung Kuliah Umum · R.201",
+          "instructor": "Prof. Dr. Arif Rahman",
+          "reminderEnabled": true
+        },
+        {
+          "id": "sch-6",
+          "title": "Praktikum Keamanan Jaringan",
+          "courseCode": "IF507",
+          "category": "Lab",
+          "date": "2026-11-18",
+          "startTime": "13:30",
+          "endTime": "16:00",
+          "location": "Cyber Defense Lab · R.401",
+          "instructor": "Asisten Lab Jarkom",
+          "reminderEnabled": true
+        }
+      ],
+      "tasks": [
+        {
+          "id": "t-1",
+          "title": "Build REST API Authentication & JWT Middleware",
+          "description": "Implement register, login, refresh token, and protected student routes with Express + Zod validation.",
+          "deadline": "2026-11-16",
+          "priority": "Urgent",
+          "status": "In Progress",
+          "subject": "IF501 · Web Full-Stack",
+          "checklist": [
+            {
+              "id": "tc-1",
+              "text": "Design user schema & password hashing",
+              "done": true
+            },
+            {
+              "id": "tc-2",
+              "text": "Write auth middleware",
+              "done": true
+            },
+            {
+              "id": "tc-3",
+              "text": "Write integration tests",
+              "done": false
+            }
+          ],
+          "attachments": [
+            "auth-spec-v2.pdf",
+            "postman-collection.json"
+          ],
+          "createdAt": "2026-11-11"
+        },
+        {
+          "id": "t-2",
+          "title": "Prepare AES & RSA Cryptography Lab Report",
+          "description": "Compare encryption latency across 128-bit and 256-bit keys and submit PDF report.",
+          "deadline": "2026-11-15",
+          "priority": "High",
+          "status": "Review",
+          "subject": "IF507 · Keamanan Jaringan",
+          "checklist": [
+            {
+              "id": "tc-4",
+              "text": "Run Python benchmark script",
+              "done": true
+            },
+            {
+              "id": "tc-5",
+              "text": "Plot latency chart",
+              "done": true
+            },
+            {
+              "id": "tc-6",
+              "text": "Proofread final PDF",
+              "done": false
+            }
+          ],
+          "attachments": [
+            "crypto-benchmark.ipynb"
+          ],
+          "createdAt": "2026-11-09"
+        },
+        {
+          "id": "t-3",
+          "title": "Train Decision Tree Classifier on Student Dataset",
+          "description": "Tune max_depth hyperparameter and evaluate precision/recall confusion matrix.",
+          "deadline": "2026-11-19",
+          "priority": "Medium",
+          "status": "To Do",
+          "subject": "IF504 · Kecerdasan Buatan",
+          "checklist": [
+            {
+              "id": "tc-7",
+              "text": "Clean missing columns",
+              "done": true
+            },
+            {
+              "id": "tc-8",
+              "text": "Split train/test 80/20",
+              "done": false
+            },
+            {
+              "id": "tc-9",
+              "text": "Export evaluation metrics",
+              "done": false
+            }
+          ],
+          "attachments": [
+            "dataset_v3.csv"
+          ],
+          "createdAt": "2026-11-12"
+        },
+        {
+          "id": "t-4",
+          "title": "Refactor ER Diagram for Campus Library DB",
+          "description": "Normalize tables up to 3NF and add composite indexes for book loan queries.",
+          "deadline": "2026-11-13",
+          "priority": "High",
+          "status": "To Do",
+          "subject": "IF208 · Basis Data",
+          "checklist": [
+            {
+              "id": "tc-10",
+              "text": "Identify transitive dependencies",
+              "done": false
+            },
+            {
+              "id": "tc-11",
+              "text": "Generate SQL migration",
+              "done": false
+            }
+          ],
+          "attachments": [
+            "erd-draft.png"
+          ],
+          "createdAt": "2026-11-08"
+        },
+        {
+          "id": "t-5",
+          "title": "Push Responsive Dashboard Component Library",
+          "description": "Create reusable Pastel Neobrutalism cards, modals, and chart wrappers.",
+          "deadline": "2026-11-18",
+          "priority": "Medium",
+          "status": "Completed",
+          "subject": "IF501 · Web Full-Stack",
+          "checklist": [
+            {
+              "id": "tc-12",
+              "text": "Build NeoCard & NeoButton",
+              "done": true
+            },
+            {
+              "id": "tc-13",
+              "text": "Verify mobile breakpoint",
+              "done": true
+            }
+          ],
+          "attachments": [
+            "ui-tokens.md"
+          ],
+          "createdAt": "2026-11-07"
+        }
+      ],
+      "snippets": [
+        {
+          "id": "snp-1",
+          "title": "Debounce Search Hook (React + TS)",
+          "language": "TypeScript",
+          "description": "Prevent excessive filtering or API calls while typing in search inputs.",
+          "tags": [
+            "react",
+            "hooks",
+            "performance"
+          ],
+          "updatedAt": "2026-11-13",
+          "isFavorite": true,
+          "code": "import { useEffect, useState } from \"react\";\n\nexport function useDebounce<T>(value: T, delay = 250): T {\n  const [debounced, setDebounced] = useState(value);\n  useEffect(() => {\n    const timer = setTimeout(() => setDebounced(value), delay);\n    return () => clearTimeout(timer);\n  }, [value, delay]);\n  return debounced;\n}"
+        },
+        {
+          "id": "snp-2",
+          "title": "Dijkstra Priority Queue Skeleton",
+          "language": "Python",
+          "description": "Shortest path graph solver using heapq.",
+          "tags": [
+            "algorithms",
+            "graph"
+          ],
+          "updatedAt": "2026-11-12",
+          "isFavorite": true,
+          "code": "import heapq\n\ndef dijkstra(graph, start):\n    dist = {node: float('inf') for node in graph}\n    dist[start] = 0\n    pq = [(0, start)]\n    while pq:\n        cost, u = heapq.heappop(pq)\n        if cost > dist[u]:\n            continue\n        for v, weight in graph[u]:\n            if cost + weight < dist[v]:\n                dist[v] = cost + weight\n                heapq.heappush(pq, (dist[v], v))\n    return dist\n\nprint(\"Dijkstra module ready\")"
+        },
+        {
+          "id": "snp-3",
+          "title": "Student GPA Weighted Query",
+          "language": "SQL",
+          "description": "Calculate cumulative GPA directly in PostgreSQL.",
+          "tags": [
+            "sql",
+            "postgres",
+            "academic"
+          ],
+          "updatedAt": "2026-11-10",
+          "isFavorite": false,
+          "code": "SELECT\n  student_id,\n  ROUND(SUM(credits * grade_point)::numeric / SUM(credits), 2) AS gpa\nFROM enrollments\nGROUP BY student_id;"
+        }
+      ],
+      "roadmaps": [
+        {
+          "id": "rm-fe",
+          "title": "Frontend Developer",
+          "subtitle": "HTML, CSS, Modern React, TypeScript & Performance",
+          "tone": "lavender",
+          "badgeName": "Pixel Architect",
+          "steps": [
+            {
+              "id": "fe-1",
+              "title": "Semantic HTML5 & Accessibility (ARIA)",
+              "tier": "Beginner",
+              "description": "Master landmarks, forms, keyboard focus management, and semantic document structure.",
+              "materials": [
+                "MDN Accessibility Guide",
+                "HTML5 Landmarks Cheatsheet"
+              ],
+              "resourceUrl": "https://developer.mozilla.org/en-US/docs/Learn/Accessibility",
+              "xp": 100,
+              "completed": true
+            },
+            {
+              "id": "fe-2",
+              "title": "CSS Grid, Flexbox & Responsive Design",
+              "tier": "Beginner",
+              "description": "Build adaptive layouts across desktop, tablet, and mobile viewports cleanly.",
+              "materials": [
+                "Flexbox Froggy",
+                "CSS Grid Complete Guide"
+              ],
+              "resourceUrl": "https://css-tricks.com/snippets/css/complete-guide-grid/",
+              "xp": 120,
+              "completed": true
+            },
+            {
+              "id": "fe-3",
+              "title": "React Hooks, State Patterns & TypeScript",
+              "tier": "Intermediate",
+              "description": "Typed components, custom hooks, derived state, and clean data flow.",
+              "materials": [
+                "React Official Docs",
+                "TypeScript Handbook"
+              ],
+              "resourceUrl": "https://react.dev/learn",
+              "xp": 180,
+              "completed": true
+            },
+            {
+              "id": "fe-4",
+              "title": "Framer Motion, Bundle Optimization & Testing",
+              "tier": "Advanced",
+              "description": "Micro-interactions, code splitting, and end-to-end UI verification.",
+              "materials": [
+                "Motion Docs",
+                "Vitest Testing Guide"
+              ],
+              "resourceUrl": "https://www.framer.com/motion/",
+              "xp": 240,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": "rm-be",
+          "title": "Backend Developer",
+          "subtitle": "APIs, PostgreSQL, Auth, Caching & System Design",
+          "tone": "mint",
+          "badgeName": "API Guardian",
+          "steps": [
+            {
+              "id": "be-1",
+              "title": "HTTP Fundamentals & RESTful API Design",
+              "tier": "Beginner",
+              "description": "Status codes, idempotency, headers, and clean JSON contracts.",
+              "materials": [
+                "REST API Design Best Practices"
+              ],
+              "resourceUrl": "https://restfulapi.net/",
+              "xp": 100,
+              "completed": true
+            },
+            {
+              "id": "be-2",
+              "title": "Node.js, Express & Relational SQL Modeling",
+              "tier": "Intermediate",
+              "description": "Database normalization, indexing, joins, and parameterized queries.",
+              "materials": [
+                "PostgreSQL Tutorial",
+                "Express Middleware Guide"
+              ],
+              "resourceUrl": "https://www.postgresql.org/docs/",
+              "xp": 180,
+              "completed": true
+            },
+            {
+              "id": "be-3",
+              "title": "JWT Auth, Rate Limiting & Redis Caching",
+              "tier": "Advanced",
+              "description": "Secure session lifecycles, RBAC authorization, and low-latency caching.",
+              "materials": [
+                "OWASP API Security Top 10"
+              ],
+              "resourceUrl": "https://owasp.org/www-project-api-security/",
+              "xp": 250,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": "rm-fs",
+          "title": "Full Stack Developer",
+          "subtitle": "End-to-End Product Engineering from DB to UI",
+          "tone": "peach",
+          "badgeName": "Stack Polyglot",
+          "steps": [
+            {
+              "id": "fs-1",
+              "title": "Monorepo / Client-Server Architecture",
+              "tier": "Beginner",
+              "description": "Shared TypeScript DTOs, environment config, and local dev proxies.",
+              "materials": [
+                "Vite Full-Stack Integration"
+              ],
+              "resourceUrl": "https://vitejs.dev/guide/backend-integration.html",
+              "xp": 120,
+              "completed": true
+            },
+            {
+              "id": "fs-2",
+              "title": "Supabase / PostgreSQL + Real-Time Sync",
+              "tier": "Intermediate",
+              "description": "Row Level Security, storage buckets, and optimistic UI updates.",
+              "materials": [
+                "Supabase Docs"
+              ],
+              "resourceUrl": "https://supabase.com/docs",
+              "xp": 200,
+              "completed": false
+            },
+            {
+              "id": "fs-3",
+              "title": "Docker Containers & CI/CD Deployment",
+              "tier": "Advanced",
+              "description": "Multi-stage Docker builds, GitHub Actions, and zero-downtime releases.",
+              "materials": [
+                "Docker Curriculum"
+              ],
+              "resourceUrl": "https://docker-curriculum.com/",
+              "xp": 260,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": "rm-ux",
+          "title": "UI/UX Designer",
+          "subtitle": "Design Systems, Wireframing, Figma & Usability",
+          "tone": "pink",
+          "badgeName": "Craft Designer",
+          "steps": [
+            {
+              "id": "ux-1",
+              "title": "Visual Hierarchy, Typography & Color Contrast",
+              "tier": "Beginner",
+              "description": "WCAG AA legibility, spacing scales, and grid discipline.",
+              "materials": [
+                "Refactoring UI Principles"
+              ],
+              "resourceUrl": "https://web.dev/accessible/",
+              "xp": 100,
+              "completed": true
+            },
+            {
+              "id": "ux-2",
+              "title": "Component Tokens & Interactive Prototyping",
+              "tier": "Intermediate",
+              "description": "Reusable design tokens, state matrices, and micro-copy.",
+              "materials": [
+                "Figma Auto-Layout Guide"
+              ],
+              "resourceUrl": "https://help.figma.com/",
+              "xp": 160,
+              "completed": false
+            },
+            {
+              "id": "ux-3",
+              "title": "Usability Testing & Heuristic Evaluation",
+              "tier": "Advanced",
+              "description": "Task completion metrics, user interviews, and iterative refinement.",
+              "materials": [
+                "Nielsen Norman 10 Heuristics"
+              ],
+              "resourceUrl": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+              "xp": 220,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": "rm-da",
+          "title": "Data Analyst",
+          "subtitle": "SQL Analytics, Python Pandas, Visualization & KPIs",
+          "tone": "yellow",
+          "badgeName": "Insight Miner",
+          "steps": [
+            {
+              "id": "da-1",
+              "title": "Advanced SQL Window Functions & CTEs",
+              "tier": "Beginner",
+              "description": "Aggregate cohorts, rolling averages, and ranking queries.",
+              "materials": [
+                "Mode SQL Analytics Tutorial"
+              ],
+              "resourceUrl": "https://mode.com/sql-tutorial/",
+              "xp": 120,
+              "completed": true
+            },
+            {
+              "id": "da-2",
+              "title": "Data Cleaning with Python Pandas & NumPy",
+              "tier": "Intermediate",
+              "description": "Impute missing values, reshape dataframes, and detect outliers.",
+              "materials": [
+                "Kaggle Pandas Course"
+              ],
+              "resourceUrl": "https://www.kaggle.com/learn/pandas",
+              "xp": 180,
+              "completed": false
+            },
+            {
+              "id": "da-3",
+              "title": "Executive Dashboards & Storytelling with Data",
+              "tier": "Advanced",
+              "description": "Choose high-signal charts and eliminate visual clutter.",
+              "materials": [
+                "Storytelling with Data"
+              ],
+              "resourceUrl": "https://www.storytellingwithdata.com/",
+              "xp": 220,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": "rm-sec",
+          "title": "Cybersecurity",
+          "subtitle": "Networking, AppSec, Cryptography & Pentesting",
+          "tone": "purple",
+          "badgeName": "Cyber Sentinel",
+          "steps": [
+            {
+              "id": "sec-1",
+              "title": "TCP/IP, DNS & Linux Hardening",
+              "tier": "Beginner",
+              "description": "Packet analysis, firewall rules, and least-privilege permissions.",
+              "materials": [
+                "OverTheWire Bandit"
+              ],
+              "resourceUrl": "https://overthewire.org/wargames/bandit/",
+              "xp": 130,
+              "completed": true
+            },
+            {
+              "id": "sec-2",
+              "title": "OWASP Top 10 & Web Exploitation Defense",
+              "tier": "Intermediate",
+              "description": "Prevent SQLi, XSS, CSRF, SSRF, and broken access control.",
+              "materials": [
+                "PortSwigger Web Security Academy"
+              ],
+              "resourceUrl": "https://portswigger.net/web-security",
+              "xp": 200,
+              "completed": false
+            },
+            {
+              "id": "sec-3",
+              "title": "Applied Cryptography & PKI Infrastructure",
+              "tier": "Advanced",
+              "description": "TLS handshakes, asymmetric signatures, and secure key rotation.",
+              "materials": [
+                "Cryptohack"
+              ],
+              "resourceUrl": "https://cryptohack.org/",
+              "xp": 260,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": "rm-mob",
+          "title": "Mobile Developer",
+          "subtitle": "React Native, Flutter, Offline Sync & Native APIs",
+          "tone": "mint",
+          "badgeName": "Pocket Builder",
+          "steps": [
+            {
+              "id": "mob-1",
+              "title": "Mobile Navigation & Touch Ergonomics",
+              "tier": "Beginner",
+              "description": "Stack/tab navigators, safe areas, and gesture feedback.",
+              "materials": [
+                "Expo Router Guide"
+              ],
+              "resourceUrl": "https://docs.expo.dev/",
+              "xp": 110,
+              "completed": false
+            },
+            {
+              "id": "mob-2",
+              "title": "Offline-First SQLite & Async Storage",
+              "tier": "Intermediate",
+              "description": "Local cache persistence and background synchronization.",
+              "materials": [
+                "React Native Storage Patterns"
+              ],
+              "resourceUrl": "https://reactnative.dev/",
+              "xp": 170,
+              "completed": false
+            },
+            {
+              "id": "mob-3",
+              "title": "60fps Animations & App Store Release",
+              "tier": "Advanced",
+              "description": "Reanimated worklets, profiling, and signed builds.",
+              "materials": [
+                "Reanimated Docs"
+              ],
+              "resourceUrl": "https://docs.swmansion.com/react-native-reanimated/",
+              "xp": 240,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": "rm-ai",
+          "title": "AI & Machine Learning",
+          "subtitle": "Linear Algebra, PyTorch, NLP & Applied LLMs",
+          "tone": "pink",
+          "badgeName": "Neural Explorer",
+          "steps": [
+            {
+              "id": "ai-1",
+              "title": "Supervised Learning & Scikit-Learn Pipelines",
+              "tier": "Beginner",
+              "description": "Regression, classification trees, cross-validation, and F1 scores.",
+              "materials": [
+                "Andrew Ng ML Specialization"
+              ],
+              "resourceUrl": "https://scikit-learn.org/stable/user_guide.html",
+              "xp": 140,
+              "completed": true
+            },
+            {
+              "id": "ai-2",
+              "title": "Deep Learning & PyTorch Neural Networks",
+              "tier": "Intermediate",
+              "description": "Backpropagation, CNNs, Adam optimizer, and GPU batching.",
+              "materials": [
+                "PyTorch 60 Minute Blitz"
+              ],
+              "resourceUrl": "https://pytorch.org/tutorials/",
+              "xp": 210,
+              "completed": false
+            },
+            {
+              "id": "ai-3",
+              "title": "Transformers, RAG & Model Evaluation",
+              "tier": "Advanced",
+              "description": "Embeddings, vector retrieval, prompt evals, and latency budgets.",
+              "materials": [
+                "Hugging Face NLP Course"
+              ],
+              "resourceUrl": "https://huggingface.co/learn/nlp-course/",
+              "xp": 280,
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "id": "prj-1",
+          "title": "STUDORA Campus Portal",
+          "category": "Website",
+          "description": "Full-stack student academic portal built with React, TypeScript, Express, and Pastel Neobrutalism UI.",
+          "deadline": "2026-11-28",
+          "coverImage": "/src/assets/images/project_web_cover_1794639986376.jpg",
+          "tone": "mint",
+          "status": "Active",
+          "members": [
+            {
+              "id": "m-1",
+              "name": "Feliz",
+              "role": "Full-Stack Lead",
+              "initials": "FZ"
+            },
+            {
+              "id": "m-2",
+              "name": "Alya Kusuma",
+              "role": "UI/UX Designer",
+              "initials": "AK"
+            },
+            {
+              "id": "m-3",
+              "name": "Bagas Putra",
+              "role": "Backend Dev",
+              "initials": "BP"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "pt-1",
+              "title": "Setup Vite + Express full-stack server",
+              "assignee": "Feliz",
+              "done": true
+            },
+            {
+              "id": "pt-2",
+              "title": "Design Neobrutalism token system",
+              "assignee": "Alya Kusuma",
+              "done": true
+            },
+            {
+              "id": "pt-3",
+              "title": "Integrate interactive Recharts analytics",
+              "assignee": "Feliz",
+              "done": true
+            },
+            {
+              "id": "pt-4",
+              "title": "Add PostgreSQL migration script",
+              "assignee": "Bagas Putra",
+              "done": false
+            }
+          ],
+          "timeline": [
+            {
+              "id": "tl-1",
+              "title": "UI Architecture Approved",
+              "date": "2026-11-04",
+              "completed": true
+            },
+            {
+              "id": "tl-2",
+              "title": "Core CRUD Modules Live",
+              "date": "2026-11-12",
+              "completed": true
+            },
+            {
+              "id": "tl-3",
+              "title": "User Acceptance Demo",
+              "date": "2026-11-24",
+              "completed": false
+            }
+          ],
+          "attachments": [
+            "architecture-diagram.svg",
+            "sprint-2-backlog.md"
+          ],
+          "notes": "Focus on zero-latency local persistence and crisp mobile navigation."
+        },
+        {
+          "id": "prj-2",
+          "title": "NeuralNote Smart Summarizer",
+          "category": "AI Project",
+          "description": "Lecture transcript classifier and keyword extractor helping IT students review algorithms faster.",
+          "deadline": "2026-12-06",
+          "coverImage": "/src/assets/images/project_ai_cover_1794639986174.jpg",
+          "tone": "pink",
+          "status": "Active",
+          "members": [
+            {
+              "id": "m-4",
+              "name": "Feliz",
+              "role": "ML Engineer",
+              "initials": "FZ"
+            },
+            {
+              "id": "m-5",
+              "name": "Citra Dewi",
+              "role": "Data Curator",
+              "initials": "CD"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "pt-5",
+              "title": "Collect 200 informatics lecture slides",
+              "assignee": "Citra Dewi",
+              "done": true
+            },
+            {
+              "id": "pt-6",
+              "title": "Train TF-IDF + Logistic Classifier",
+              "assignee": "Feliz",
+              "done": true
+            },
+            {
+              "id": "pt-7",
+              "title": "Benchmark inference speed",
+              "assignee": "Feliz",
+              "done": false
+            }
+          ],
+          "timeline": [
+            {
+              "id": "tl-4",
+              "title": "Dataset Cleaned",
+              "date": "2026-11-08",
+              "completed": true
+            },
+            {
+              "id": "tl-5",
+              "title": "Model v1 Accuracy > 88%",
+              "date": "2026-11-21",
+              "completed": false
+            }
+          ],
+          "attachments": [
+            "model-metrics.csv"
+          ],
+          "notes": "Current validation F1 score sits at 0.86; testing bi-gram features next."
+        },
+        {
+          "id": "prj-3",
+          "title": "Campus Shuttle Live Tracker",
+          "category": "Mobile App",
+          "description": "Cross-platform mobile app showing real-time campus bus arrival ETAs and seat capacity.",
+          "deadline": "2026-12-14",
+          "tone": "yellow",
+          "status": "Planning",
+          "members": [
+            {
+              "id": "m-6",
+              "name": "Feliz",
+              "role": "Mobile Dev",
+              "initials": "FZ"
+            },
+            {
+              "id": "m-7",
+              "name": "Kevin Tan",
+              "role": "IoT Telemetry",
+              "initials": "KT"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "pt-8",
+              "title": "Define GPS WebSocket payload",
+              "assignee": "Kevin Tan",
+              "done": true
+            },
+            {
+              "id": "pt-9",
+              "title": "Build route stop list UI",
+              "assignee": "Feliz",
+              "done": false
+            }
+          ],
+          "timeline": [
+            {
+              "id": "tl-6",
+              "title": "Hardware Telemetry Test",
+              "date": "2026-11-19",
+              "completed": false
+            }
+          ],
+          "attachments": [
+            "bus-stops.geojson"
+          ],
+          "notes": "Need offline stop timetable fallback when signal drops inside basement."
+        },
+        {
+          "id": "prj-4",
+          "title": "Academic Grading & Transcript Engine",
+          "category": "Database",
+          "description": "Normalized PostgreSQL database schema and stored procedures for university SKS & IPK calculation.",
+          "deadline": "2026-11-21",
+          "tone": "lavender",
+          "status": "Review",
+          "members": [
+            {
+              "id": "m-8",
+              "name": "Feliz",
+              "role": "DB Architect",
+              "initials": "FZ"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "pt-10",
+              "title": "Create 3NF ERD schema",
+              "assignee": "Feliz",
+              "done": true
+            },
+            {
+              "id": "pt-11",
+              "title": "Write GPA trigger functions",
+              "assignee": "Feliz",
+              "done": true
+            },
+            {
+              "id": "pt-12",
+              "title": "Prepare final presentation slides",
+              "assignee": "Feliz",
+              "done": false
+            }
+          ],
+          "timeline": [
+            {
+              "id": "tl-7",
+              "title": "Schema Peer Review",
+              "date": "2026-11-13",
+              "completed": true
+            },
+            {
+              "id": "tl-8",
+              "title": "Final Submission",
+              "date": "2026-11-21",
+              "completed": false
+            }
+          ],
+          "attachments": [
+            "schema-3nf.sql"
+          ],
+          "notes": "Passed all constraint checks with zero anomalous updates."
+        }
+      ],
+      "monthlyBudget": 2500000,
+      "transactions": [
+        {
+          "id": "fin-1",
+          "title": "Monthly Parent Allowance",
+          "amount": 2200000,
+          "type": "income",
+          "category": "Allowance",
+          "date": "2026-11-02",
+          "note": "November living & campus budget"
+        },
+        {
+          "id": "fin-2",
+          "title": "Freelance Landing Page Build",
+          "amount": 1350000,
+          "type": "income",
+          "category": "Freelance",
+          "date": "2026-11-08",
+          "note": "React + Tailwind client deliverable"
+        },
+        {
+          "id": "fin-3",
+          "title": "Kantin Kampus & Coffee",
+          "amount": 145000,
+          "type": "expense",
+          "category": "Food",
+          "date": "2026-11-12",
+          "note": "Weekly lunch + late-night coding espresso"
+        },
+        {
+          "id": "fin-4",
+          "title": "Fiber Internet & Mobile Data",
+          "amount": 240000,
+          "type": "expense",
+          "category": "Internet",
+          "date": "2026-11-06",
+          "note": "Monthly 100Mbps student plan"
+        },
+        {
+          "id": "fin-5",
+          "title": "Algorithm & System Design E-Book",
+          "amount": 185000,
+          "type": "expense",
+          "category": "Education",
+          "date": "2026-11-09",
+          "note": "Designing Data-Intensive Applications study notes"
+        },
+        {
+          "id": "fin-6",
+          "title": "Commuter Train & Ride Share",
+          "amount": 95000,
+          "type": "expense",
+          "category": "Transportation",
+          "date": "2026-11-11"
+        },
+        {
+          "id": "fin-7",
+          "title": "Cloud VPS Hosting + Domain",
+          "amount": 165000,
+          "type": "expense",
+          "category": "Shopping",
+          "date": "2026-11-10",
+          "note": "Student sandbox server"
+        },
+        {
+          "id": "fin-8",
+          "title": "Weekend Cinema & Hangout",
+          "amount": 110000,
+          "type": "expense",
+          "category": "Entertainment",
+          "date": "2026-11-13"
+        }
+      ],
+      "financialGoals": [
+        {
+          "id": "fg-1",
+          "title": "Mechanical Keyboard Keychron",
+          "targetAmount": 1600000,
+          "currentAmount": 1150000,
+          "deadline": "2026-12-29",
+          "tone": "lavender"
+        },
+        {
+          "id": "fg-2",
+          "title": "Emergency Student Fund",
+          "targetAmount": 5000000,
+          "currentAmount": 3250000,
+          "deadline": "2027-03-14",
+          "tone": "mint"
+        },
+        {
+          "id": "fg-3",
+          "title": "AWS Cloud Certification Exam",
+          "targetAmount": 1800000,
+          "currentAmount": 900000,
+          "deadline": "2027-01-13",
+          "tone": "yellow"
+        }
+      ],
+      "notes": [
+        {
+          "id": "n-1",
+          "title": "Big-O Complexity Cheat Notes (IF202)",
+          "category": "Lecture Notes",
+          "content": "Always analyze worst-case vs amortized time complexity. Hash tables give O(1) average lookup, while balanced BSTs (AVL / Red-Black) guarantee O(log n) even under adversarial keys.",
+          "codeBlock": "// Binary Search: O(log n) time, O(1) space\nwhile (lo <= hi) {\n  const mid = lo + ((hi - lo) >> 1);\n}",
+          "codeLanguage": "TypeScript",
+          "checklist": [
+            {
+              "id": "nc-1",
+              "text": "Review Master Theorem Case 2",
+              "done": true
+            },
+            {
+              "id": "nc-2",
+              "text": "Practice 5 DP memoization problems",
+              "done": false
+            }
+          ],
+          "pinned": true,
+          "favorite": true,
+          "tone": "lavender",
+          "updatedAt": "2026-11-14"
+        },
+        {
+          "id": "n-2",
+          "title": "PostgreSQL Indexing Rules of Thumb",
+          "category": "Programming",
+          "content": "Use B-Tree indexes for equality and range queries. For composite indexes (a, b), column order matters—place the highest-selectivity or equality column first.",
+          "codeBlock": "CREATE INDEX idx_tasks_status_deadline\nON tasks (status, deadline ASC);",
+          "codeLanguage": "SQL",
+          "checklist": [
+            {
+              "id": "nc-3",
+              "text": "Run EXPLAIN ANALYZE on slow join",
+              "done": true
+            }
+          ],
+          "pinned": true,
+          "favorite": false,
+          "tone": "mint",
+          "updatedAt": "2026-11-13"
+        },
+        {
+          "id": "n-3",
+          "title": "Hackathon App Ideas — Campus Edition",
+          "category": "Ideas",
+          "content": "1. Peer code-review matcher for freshman CS labs.\n2. Crowdsourced quiet study seat availability map in the central library.\n3. Automated syllabus-to-calendar ICS generator.",
+          "checklist": [
+            {
+              "id": "nc-4",
+              "text": "Validate idea #2 with 10 classmates",
+              "done": false
+            }
+          ],
+          "pinned": false,
+          "favorite": true,
+          "tone": "yellow",
+          "updatedAt": "2026-11-12"
+        },
+        {
+          "id": "n-4",
+          "title": "Sprint 3 Action Items — STUDORA Portal",
+          "category": "Projects",
+          "content": "Verify contrast ratios on Pastel Pink and Soft Yellow badges, ensure mobile bottom bar stays ergonomic, and test local persistence across browser reloads.",
+          "checklist": [
+            {
+              "id": "nc-5",
+              "text": "Audit dark mode card borders",
+              "done": true
+            },
+            {
+              "id": "nc-6",
+              "text": "Test CSV export on Analytics",
+              "done": true
+            }
+          ],
+          "pinned": false,
+          "favorite": false,
+          "tone": "peach",
+          "updatedAt": "2026-11-11"
+        },
+        {
+          "id": "n-5",
+          "title": "Weekly Deep Work Routine",
+          "category": "Personal",
+          "content": "Two 90-minute focus blocks before noon with phone in Focus mode. Reserve late afternoon for campus organization syncs and code reviews.",
+          "checklist": [],
+          "pinned": false,
+          "favorite": false,
+          "tone": "pink",
+          "updatedAt": "2026-11-09"
+        }
+      ],
+      "notifications": [
+        {
+          "id": "not-1",
+          "title": "Quiz Kriptografi Simetris Tomorrow",
+          "message": "IF507 quiz starts at 09:00 in Aula Barat R.104. Review AES block modes tonight.",
+          "type": "Exam Reminders",
+          "timestamp": "15m ago",
+          "read": false,
+          "targetPage": "schedule"
+        },
+        {
+          "id": "not-2",
+          "title": "Deadline Approaching: AES Lab Report",
+          "message": "Due tomorrow! 2 of 3 checklist items completed.",
+          "type": "Deadline Reminders",
+          "timestamp": "1h ago",
+          "read": false,
+          "targetPage": "tasks"
+        },
+        {
+          "id": "not-3",
+          "title": "Class Starting Soon: Praktikum ML",
+          "message": "Lab AI & Data Science · Lt. 2 at 13:00 today.",
+          "type": "Class Reminders",
+          "timestamp": "3h ago",
+          "read": false,
+          "targetPage": "schedule"
+        },
+        {
+          "id": "not-4",
+          "title": "Alya pushed UI Tokens to STUDORA Portal",
+          "message": "Project progress reached 75%. Review sprint notes.",
+          "type": "Project Updates",
+          "timestamp": "Yesterday",
+          "read": true,
+          "targetPage": "projects"
+        },
+        {
+          "id": "not-5",
+          "title": "14-Day Coding Streak Unlocked",
+          "message": "You completed 3 Frontend Developer roadmap milestones this week.",
+          "type": "Learning Reminders",
+          "timestamp": "2d ago",
+          "read": true,
+          "targetPage": "roadmap"
+        },
+        {
+          "id": "not-6",
+          "title": "Workspace Sync Active",
+          "message": "Your data automatically persists across sessions with full-stack backup.",
+          "type": "System Notifications",
+          "timestamp": "3d ago",
+          "read": true,
+          "targetPage": "settings"
+        }
+      ],
+      "studyStats": [
+        {
+          "day": "Mon",
+          "studyHours": 4.5,
+          "codingHours": 2.5,
+          "tasksCompleted": 3
+        },
+        {
+          "day": "Tue",
+          "studyHours": 5.2,
+          "codingHours": 3.1,
+          "tasksCompleted": 4
+        },
+        {
+          "day": "Wed",
+          "studyHours": 3.8,
+          "codingHours": 2,
+          "tasksCompleted": 2
+        },
+        {
+          "day": "Thu",
+          "studyHours": 6,
+          "codingHours": 4.2,
+          "tasksCompleted": 5
+        },
+        {
+          "day": "Fri",
+          "studyHours": 4.9,
+          "codingHours": 3.4,
+          "tasksCompleted": 3
+        },
+        {
+          "day": "Sat",
+          "studyHours": 3.2,
+          "codingHours": 2.8,
+          "tasksCompleted": 2
+        },
+        {
+          "day": "Sun",
+          "studyHours": 2.6,
+          "codingHours": 1.9,
+          "tasksCompleted": 1
+        }
+      ],
+      "settings": {
+        "theme": "light",
+        "accentColor": "pink",
+        "language": "en",
+        "notifications": {
+          "deadlineReminders": true,
+          "classReminders": true,
+          "examReminders": true,
+          "projectUpdates": true,
+          "learningReminders": true,
+          "systemNotifications": true
+        },
+        "backgroundColor": "#FDE2F3"
+      }
+    },
+    "verify@studora.ac.id": {
+      "schemaVersion": 3,
+      "updatedAt": "2026-11-14T00:00:00Z",
+      "tasks": [
+        {
+          "id": "t-test",
+          "title": "Test Task"
+        }
+      ]
+    }
+  }
+}
